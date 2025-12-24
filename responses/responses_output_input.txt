@@ -1,0 +1,83 @@
+Model gpt 4-o:
+
+🔴 [AMBIGUITY DETECTED] Image: image_0001.png
+   Question:      "On a scale of 0 to 4 (where 0 is no damage and 4 is destroye..."
+   Config:        Model=[gpt-4o-2024-08-06] | Temp=[1]
+   Full Response: "4 90%"
+   -----------------------------------------------------------
+   INTERNAL CONFIDENCE (LogProb):  62.0%
+   EXPRESSED CONFIDENCE (Text):    90%
+   -----------------------------------------------------------
+   Runner Up:      "3" (37.6%)
+   Gap:            24.4%
+
+   Detailed Distribution:
+   1. [4              ] : 62.03% ████████████
+   2. [3              ] : 37.62% ████████
+   3. [2              ] : 0.33% 
+   4. ["              ] : 0.01% 
+   5. ['              ] : 0.01% 
+---------------------------------------------------------------
+
+
+
+🔴 [AMBIGUITY DETECTED] Image: image_0001.png
+   Question:      "What is the primary type of debris visible? Answer with the ..."
+   Config:        Model=[gpt-4o-2024-08-06] | Temp=[1]
+   Full Response: "Building materials 95%"
+   -----------------------------------------------------------
+   INTERNAL CONFIDENCE (LogProb):  57.4%
+   EXPRESSED CONFIDENCE (Text):    95%
+   -----------------------------------------------------------
+   Runner Up:      "Construction" (21.1%)
+   Gap:            36.3%
+
+   Detailed Distribution:
+   1. [Building       ] : 57.44% ███████████
+   2. [Construction   ] : 21.13% ████
+   3. [Structural     ] : 16.46% ███
+   4. [Wood           ] : 4.72% █
+   5. [Structures     ] : 0.08% 
+---------------------------------------------------------------
+
+
+
+🔴 [AMBIGUITY DETECTED] Image: image_0001.png
+   Question:      "On a scale of 0 to 4 (where 0 is no damage and 4 is destroye..."
+   Config:        Model=[gpt-4o-2024-08-06] | Temp=[1]
+   Full Response: "3 90%"
+   -----------------------------------------------------------
+   INTERNAL CONFIDENCE (LogProb):  50.0%
+   EXPRESSED CONFIDENCE (Text):    90%
+   -----------------------------------------------------------
+   Runner Up:      "4" (50.0%)
+   Gap:            0.0%
+
+   Detailed Distribution:
+   1. [3              ] : 49.98% ██████████
+   2. [4              ] : 49.98% ██████████
+   3. [2              ] : 0.04% 
+   4. [1              ] : 0.00% 
+   5. ['              ] : 0.00% 
+
+
+
+🔴 [AMBIGUITY DETECTED] Image: image_0001.png
+   Question:      "What is the primary type of debris visible? Answer with the ..."
+   Config:        Model=[gpt-4o-2024-08-06] | Temp=[1]
+   Full Response: "Building materials 95%"
+   -----------------------------------------------------------
+   INTERNAL CONFIDENCE (LogProb):  58.1%
+   EXPRESSED CONFIDENCE (Text):    95%
+   -----------------------------------------------------------
+   Runner Up:      "Structural" (21.4%)
+   Gap:            36.7%
+
+   Detailed Distribution:
+   1. [Building       ] : 58.05% ████████████
+   2. [Structural     ] : 21.36% ████
+   3. [Construction   ] : 16.63% ███
+   4. [Wood           ] : 3.71% █
+   5. [Structures     ] : 0.08% 
+---------------------------------------------------------------
+

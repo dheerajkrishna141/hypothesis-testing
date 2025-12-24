@@ -1,0 +1,569 @@
+
+> scripts@1.0.0 dev
+> node index.js
+
+
+
+--- Processing Image: "image_0001.png" with Question: "Is there visible flooding in this image? Answer strictly with 'Yes' or 'No'." ---
+
+================================================================================
+RESPONSE DETAILS
+================================================================================
+Index: 0
+Finish Reason: stop
+
+Message Content:
+No.
+================================================================================
+
+================================================================================
+LOGPROBS ANALYSIS
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+Token #1
+────────────────────────────────────────────────────────────────────────────────
+Token: "No"
+Logprob: -0.000002
+Probability: 99.9998%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "No                  " | Logprob: -0.000002  | Probability:    99.9998%
+  2. Token: "Yes                 " | Logprob: -13.125003 | Probability:     0.0002%
+  3. Token: " No                 " | Logprob: -15.000003 | Probability:     0.0000%
+  4. Token: "_No                 " | Logprob: -17.500002 | Probability:     0.0000%
+  5. Token: ".No                 " | Logprob: -19.500002 | Probability:     0.0000%
+  6. Token: "I                   " | Logprob: -19.625002 | Probability:     0.0000%
+  7. Token: "                    " | Logprob: -19.875002 | Probability:     0.0000%
+  8. Token: ""No                 " | Logprob: -19.875002 | Probability:     0.0000%
+  9. Token: ">No                 " | Logprob: -20.000002 | Probability:     0.0000%
+  10. Token: "I'm                 " | Logprob: -20.250002 | Probability:     0.0000%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #2
+────────────────────────────────────────────────────────────────────────────────
+Token: "."
+Logprob: -0.693207
+Probability: 49.9970%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: ".                   " | Logprob: -0.693207  | Probability:    49.9970%
+  2. Token: "<|end|>             " | Logprob: -0.693207  | Probability:    49.9970%
+  3. Token: "<|end|>             " | Logprob: -10.068207 | Probability:     0.0042%
+  4. Token: "。                   " | Logprob: -11.568207 | Probability:     0.0009%
+  5. Token: "।                   " | Logprob: -12.318207 | Probability:     0.0004%
+  6. Token: "۔                   " | Logprob: -13.818207 | Probability:     0.0001%
+  7. Token: "‍.                  " | Logprob: -15.193207 | Probability:     0.0000%
+  8. Token: ".
+                  " | Logprob: -15.818207 | Probability:     0.0000%
+  9. Token: "‍                   " | Logprob: -16.068207 | Probability:     0.0000%
+  10. Token: "                   " | Logprob: -16.443207 | Probability:     0.0000%
+
+================================================================================
+
+
+
+--- Processing Image: "image_0001.png" with Question: "Is the primary structure in this image elevated ? Answer strictly with 'Yes' or 'No'." ---
+
+================================================================================
+RESPONSE DETAILS
+================================================================================
+Index: 0
+Finish Reason: stop
+
+Message Content:
+Yes.
+================================================================================
+
+================================================================================
+LOGPROBS ANALYSIS
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+Token #1
+────────────────────────────────────────────────────────────────────────────────
+Token: "Yes"
+Logprob: -0.000001
+Probability: 99.9999%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "Yes                 " | Logprob: -0.000001  | Probability:    99.9999%
+  2. Token: "No                  " | Logprob: -13.625001 | Probability:     0.0001%
+  3. Token: " Yes                " | Logprob: -15.875001 | Probability:     0.0000%
+  4. Token: "Sorry               " | Logprob: -18.750002 | Probability:     0.0000%
+  5. Token: "You                 " | Logprob: -19.875002 | Probability:     0.0000%
+  6. Token: "Y                   " | Logprob: -20.250002 | Probability:     0.0000%
+  7. Token: "Yeah                " | Logprob: -20.250002 | Probability:     0.0000%
+  8. Token: "The                 " | Logprob: -20.500002 | Probability:     0.0000%
+  9. Token: "“Yes                " | Logprob: -20.500002 | Probability:     0.0000%
+  10. Token: "​​                  " | Logprob: -20.750002 | Probability:     0.0000%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #2
+────────────────────────────────────────────────────────────────────────────────
+Token: "."
+Logprob: -0.251960
+Probability: 77.7276%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: ".                   " | Logprob: -0.251960  | Probability:    77.7276%
+  2. Token: "<|end|>             " | Logprob: -1.501960  | Probability:    22.2693%
+  3. Token: "<|end|>             " | Logprob: -10.876960 | Probability:     0.0019%
+  4. Token: "。                   " | Logprob: -11.876960 | Probability:     0.0007%
+  5. Token: "।                   " | Logprob: -12.751960 | Probability:     0.0003%
+  6. Token: ".
+                  " | Logprob: -14.251960 | Probability:     0.0001%
+  7. Token: "۔                   " | Logprob: -14.376960 | Probability:     0.0001%
+  8. Token: "‍.                  " | Logprob: -16.126961 | Probability:     0.0000%
+  9. Token: "
+                   " | Logprob: -16.501961 | Probability:     0.0000%
+  10. Token: ".
+
+                 " | Logprob: -16.626961 | Probability:     0.0000%
+
+================================================================================
+
+
+
+--- Processing Image: "image_0001.png" with Question: "On a scale of 0 to 4 (where 0 is no damage and 4 is destroyed), what is the wind state damage rating? Answer with a single digit only." ---
+
+================================================================================
+RESPONSE DETAILS
+================================================================================
+Index: 0
+Finish Reason: stop
+
+Message Content:
+3
+================================================================================
+
+================================================================================
+LOGPROBS ANALYSIS
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+Token #1
+────────────────────────────────────────────────────────────────────────────────
+Token: "3"
+Logprob: -0.201442
+Probability: 81.7551%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "3                   " | Logprob: -0.201442  | Probability:    81.7551%
+  2. Token: "4                   " | Logprob: -1.701442  | Probability:    18.2420%
+  3. Token: "2                   " | Logprob: -10.451443 | Probability:     0.0029%
+  4. Token: "1                   " | Logprob: -18.076443 | Probability:     0.0000%
+  5. Token: "                    " | Logprob: -18.201443 | Probability:     0.0000%
+  6. Token: "３                   " | Logprob: -18.701443 | Probability:     0.0000%
+  7. Token: "                    " | Logprob: -19.201443 | Probability:     0.0000%
+  8. Token: "5                   " | Logprob: -19.576443 | Probability:     0.0000%
+  9. Token: "۳                   " | Logprob: -19.576443 | Probability:     0.0000%
+  10. Token: "```                 " | Logprob: -19.576443 | Probability:     0.0000%
+
+================================================================================
+
+
+
+--- Processing Image: "image_0001.png" with Question: "What is the primary building type shown ? Answer with the category name only." ---
+
+================================================================================
+RESPONSE DETAILS
+================================================================================
+Index: 0
+Finish Reason: stop
+
+Message Content:
+House
+================================================================================
+
+================================================================================
+LOGPROBS ANALYSIS
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+Token #1
+────────────────────────────────────────────────────────────────────────────────
+Token: "House"
+Logprob: -2.244972
+Probability: 10.5931%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "Residential         " | Logprob: -0.119972  | Probability:    88.6946%
+  2. Token: "House               " | Logprob: -2.244972  | Probability:    10.5931%
+  3. Token: "Wood                " | Logprob: -5.869972  | Probability:     0.2823%
+  4. Token: "Single              " | Logprob: -5.869972  | Probability:     0.2823%
+  5. Token: "Dam                 " | Logprob: -7.494972  | Probability:     0.0556%
+  6. Token: "St                  " | Logprob: -8.244971  | Probability:     0.0263%
+  7. Token: "Elev                " | Logprob: -8.494971  | Probability:     0.0204%
+  8. Token: "Residence           " | Logprob: -8.869971  | Probability:     0.0141%
+  9. Token: "Raised              " | Logprob: -8.994971  | Probability:     0.0124%
+  10. Token: "Destroyed           " | Logprob: -9.994971  | Probability:     0.0046%
+
+================================================================================
+
+
+
+--- Processing Image: "image_0001.png" with Question: "What is the primary type of debris visible? Answer with the category name only." ---
+
+================================================================================
+RESPONSE DETAILS
+================================================================================
+Index: 0
+Finish Reason: stop
+
+Message Content:
+Structural debris.
+================================================================================
+
+================================================================================
+LOGPROBS ANALYSIS
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+Token #1
+────────────────────────────────────────────────────────────────────────────────
+Token: "Structural"
+Logprob: -0.926471
+Probability: 39.5949%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "Structural          " | Logprob: -0.926471  | Probability:    39.5949%
+  2. Token: "Building            " | Logprob: -1.301471  | Probability:    27.2131%
+  3. Token: "Construction        " | Logprob: -1.426471  | Probability:    24.0155%
+  4. Token: "Wood                " | Logprob: -2.426471  | Probability:     8.8348%
+  5. Token: "House               " | Logprob: -6.301471  | Probability:     0.1834%
+  6. Token: "Structure           " | Logprob: -7.301471  | Probability:     0.0675%
+  7. Token: "Residential         " | Logprob: -7.801471  | Probability:     0.0409%
+  8. Token: "Housing             " | Logprob: -8.426471  | Probability:     0.0219%
+  9. Token: "Structures          " | Logprob: -9.051471  | Probability:     0.0117%
+  10. Token: "Infrastructure      " | Logprob: -9.926471  | Probability:     0.0049%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #2
+────────────────────────────────────────────────────────────────────────────────
+Token: " debris"
+Logprob: -0.345359
+Probability: 70.7966%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: " debris             " | Logprob: -0.345359  | Probability:    70.7966%
+  2. Token: "<|end|>             " | Logprob: -1.345359  | Probability:    26.0446%
+  3. Token: " Deb                " | Logprob: -4.095359  | Probability:     1.6650%
+  4. Token: ".                   " | Logprob: -4.345359  | Probability:     1.2967%
+  5. Token: " deb                " | Logprob: -6.845359  | Probability:     0.1064%
+  6. Token: " damage             " | Logprob: -7.845359  | Probability:     0.0392%
+  7. Token: " Damage             " | Logprob: -9.095359  | Probability:     0.0112%
+  8. Token: " building           " | Logprob: -10.095359 | Probability:     0.0041%
+  9. Token: "<|end|>             " | Logprob: -10.095359 | Probability:     0.0041%
+  10. Token: " elements           " | Logprob: -10.345359 | Probability:     0.0032%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #3
+────────────────────────────────────────────────────────────────────────────────
+Token: "."
+Logprob: -0.825953
+Probability: 43.7817%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "<|end|>             " | Logprob: -0.575953  | Probability:    56.2169%
+  2. Token: ".                   " | Logprob: -0.825953  | Probability:    43.7817%
+  3. Token: "<|end|>             " | Logprob: -11.575953 | Probability:     0.0009%
+  4. Token: "‍                   " | Logprob: -13.325953 | Probability:     0.0002%
+  5. Token: "。                   " | Logprob: -14.700953 | Probability:     0.0000%
+  6. Token: "।                   " | Logprob: -14.700953 | Probability:     0.0000%
+  7. Token: "​​                  " | Logprob: -14.825953 | Probability:     0.0000%
+  8. Token: "​​​                 " | Logprob: -15.575953 | Probability:     0.0000%
+  9. Token: ".
+
+                 " | Logprob: -15.700953 | Probability:     0.0000%
+  10. Token: "                    " | Logprob: -15.825953 | Probability:     0.0000%
+
+================================================================================
+
+
+
+--- Processing Image: "image_0020.png" with Question: "Is there visible flooding in this image? Answer strictly with 'Yes' or 'No'." ---
+
+================================================================================
+RESPONSE DETAILS
+================================================================================
+Index: 0
+Finish Reason: stop
+
+Message Content:
+No.
+================================================================================
+
+================================================================================
+LOGPROBS ANALYSIS
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+Token #1
+────────────────────────────────────────────────────────────────────────────────
+Token: "No"
+Logprob: -0.008615
+Probability: 99.1422%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "No                  " | Logprob: -0.008615  | Probability:    99.1422%
+  2. Token: "Yes                 " | Logprob: -4.758615  | Probability:     0.8577%
+  3. Token: " No                 " | Logprob: -14.508615 | Probability:     0.0001%
+  4. Token: "_No                 " | Logprob: -17.133615 | Probability:     0.0000%
+  5. Token: "                    " | Logprob: -19.133615 | Probability:     0.0000%
+  6. Token: ".No                 " | Logprob: -19.258615 | Probability:     0.0000%
+  7. Token: " Yes                " | Logprob: -19.758615 | Probability:     0.0000%
+  8. Token: ""No                 " | Logprob: -20.008615 | Probability:     0.0000%
+  9. Token: ">No                 " | Logprob: -20.133615 | Probability:     0.0000%
+  10. Token: "NO                  " | Logprob: -20.383615 | Probability:     0.0000%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #2
+────────────────────────────────────────────────────────────────────────────────
+Token: "."
+Logprob: -1.313282
+Probability: 26.8936%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "<|end|>             " | Logprob: -0.313282  | Probability:    73.1043%
+  2. Token: ".                   " | Logprob: -1.313282  | Probability:    26.8936%
+  3. Token: "<|end|>             " | Logprob: -11.063282 | Probability:     0.0016%
+  4. Token: "。                   " | Logprob: -12.813282 | Probability:     0.0003%
+  5. Token: "।                   " | Logprob: -13.813282 | Probability:     0.0001%
+  6. Token: "۔                   " | Logprob: -15.313282 | Probability:     0.0000%
+  7. Token: ".
+                  " | Logprob: -15.563282 | Probability:     0.0000%
+  8. Token: ".
+
+                 " | Logprob: -16.438282 | Probability:     0.0000%
+  9. Token: "‍                   " | Logprob: -16.438282 | Probability:     0.0000%
+  10. Token: "
+                   " | Logprob: -16.813282 | Probability:     0.0000%
+
+================================================================================
+
+
+
+--- Processing Image: "image_0020.png" with Question: "Is the primary structure in this image elevated ? Answer strictly with 'Yes' or 'No'." ---
+
+================================================================================
+RESPONSE DETAILS
+================================================================================
+Index: 0
+Finish Reason: stop
+
+Message Content:
+No.
+================================================================================
+
+================================================================================
+LOGPROBS ANALYSIS
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+Token #1
+────────────────────────────────────────────────────────────────────────────────
+Token: "No"
+Logprob: -0.000336
+Probability: 99.9664%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "No                  " | Logprob: -0.000336  | Probability:    99.9664%
+  2. Token: "Yes                 " | Logprob: -8.000336  | Probability:     0.0335%
+  3. Token: " No                 " | Logprob: -15.250336 | Probability:     0.0000%
+  4. Token: "Sorry               " | Logprob: -17.750336 | Probability:     0.0000%
+  5. Token: "I'm                 " | Logprob: -18.375336 | Probability:     0.0000%
+  6. Token: "I                   " | Logprob: -18.625336 | Probability:     0.0000%
+  7. Token: "_No                 " | Logprob: -18.875336 | Probability:     0.0000%
+  8. Token: "The                 " | Logprob: -19.875336 | Probability:     0.0000%
+  9. Token: ".No                 " | Logprob: -20.375336 | Probability:     0.0000%
+  10. Token: "                    " | Logprob: -20.625336 | Probability:     0.0000%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #2
+────────────────────────────────────────────────────────────────────────────────
+Token: "."
+Logprob: -0.126953
+Probability: 88.0775%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: ".                   " | Logprob: -0.126953  | Probability:    88.0775%
+  2. Token: "<|end|>             " | Logprob: -2.126953  | Probability:    11.9200%
+  3. Token: "<|end|>             " | Logprob: -11.501953 | Probability:     0.0010%
+  4. Token: "。                   " | Logprob: -11.626953 | Probability:     0.0009%
+  5. Token: "।                   " | Logprob: -12.376953 | Probability:     0.0004%
+  6. Token: "۔                   " | Logprob: -14.126953 | Probability:     0.0001%
+  7. Token: ".
+                  " | Logprob: -14.251953 | Probability:     0.0001%
+  8. Token: "‍.                  " | Logprob: -16.251953 | Probability:     0.0000%
+  9. Token: ".
+
+                 " | Logprob: -16.751953 | Probability:     0.0000%
+  10. Token: "
+                   " | Logprob: -17.001953 | Probability:     0.0000%
+
+================================================================================
+
+
+
+--- Processing Image: "image_0020.png" with Question: "On a scale of 0 to 4 (where 0 is no damage and 4 is destroyed), what is the wind state damage rating? Answer with a single digit only." ---
+
+================================================================================
+RESPONSE DETAILS
+================================================================================
+Index: 0
+Finish Reason: stop
+
+Message Content:
+4
+================================================================================
+
+================================================================================
+LOGPROBS ANALYSIS
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+Token #1
+────────────────────────────────────────────────────────────────────────────────
+Token: "4"
+Logprob: -0.004081
+Probability: 99.5928%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "4                   " | Logprob: -0.004081  | Probability:    99.5928%
+  2. Token: "3                   " | Logprob: -5.504081  | Probability:     0.4070%
+  3. Token: "2                   " | Logprob: -13.004081 | Probability:     0.0002%
+  4. Token: "1                   " | Logprob: -17.504080 | Probability:     0.0000%
+  5. Token: "```                 " | Logprob: -18.504080 | Probability:     0.0000%
+  6. Token: "``                  " | Logprob: -18.879080 | Probability:     0.0000%
+  7. Token: "４                   " | Logprob: -18.879080 | Probability:     0.0000%
+  8. Token: "                    " | Logprob: -18.879080 | Probability:     0.0000%
+  9. Token: "5                   " | Logprob: -19.004080 | Probability:     0.0000%
+  10. Token: "`                   " | Logprob: -19.004080 | Probability:     0.0000%
+
+================================================================================
+
+
+
+--- Processing Image: "image_0020.png" with Question: "What is the primary building type shown ? Answer with the category name only." ---
+
+================================================================================
+RESPONSE DETAILS
+================================================================================
+Index: 0
+Finish Reason: stop
+
+Message Content:
+Industrial
+================================================================================
+
+================================================================================
+LOGPROBS ANALYSIS
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+Token #1
+────────────────────────────────────────────────────────────────────────────────
+Token: "Industrial"
+Logprob: -0.229339
+Probability: 79.5059%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "Industrial          " | Logprob: -0.229339  | Probability:    79.5059%
+  2. Token: "Commercial          " | Logprob: -1.729339  | Probability:    17.7402%
+  3. Token: "Warehouse           " | Logprob: -3.604339  | Probability:     2.7205%
+  4. Token: "Dam                 " | Logprob: -9.604339  | Probability:     0.0067%
+  5. Token: "Factory             " | Logprob: -10.104339 | Probability:     0.0041%
+  6. Token: "Destroyed           " | Logprob: -10.104339 | Probability:     0.0041%
+  7. Token: "Metal               " | Logprob: -10.354339 | Probability:     0.0032%
+  8. Token: "Collapsed           " | Logprob: -10.479339 | Probability:     0.0028%
+  9. Token: "Industry            " | Logprob: -10.854339 | Probability:     0.0019%
+  10. Token: "Ware                " | Logprob: -11.229339 | Probability:     0.0013%
+
+================================================================================
+
+
+
+--- Processing Image: "image_0020.png" with Question: "What is the primary type of debris visible? Answer with the category name only." ---
+
+================================================================================
+RESPONSE DETAILS
+================================================================================
+Index: 0
+Finish Reason: stop
+
+Message Content:
+Building debris
+================================================================================
+
+================================================================================
+LOGPROBS ANALYSIS
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+Token #1
+────────────────────────────────────────────────────────────────────────────────
+Token: "Building"
+Logprob: -0.468660
+Probability: 62.5840%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "Building            " | Logprob: -0.468660  | Probability:    62.5840%
+  2. Token: "Structural          " | Logprob: -1.468660  | Probability:    23.0234%
+  3. Token: "Construction        " | Logprob: -1.968660  | Probability:    13.9644%
+  4. Token: "Metal               " | Logprob: -5.718660  | Probability:     0.3284%
+  5. Token: "Structure           " | Logprob: -8.093660  | Probability:     0.0305%
+  6. Token: "Structures          " | Logprob: -8.593660  | Probability:     0.0185%
+  7. Token: "Buildings           " | Logprob: -8.968660  | Probability:     0.0127%
+  8. Token: "Wood                " | Logprob: -9.093660  | Probability:     0.0112%
+  9. Token: "Collapsed           " | Logprob: -9.718660  | Probability:     0.0060%
+  10. Token: "Infrastructure      " | Logprob: -9.718660  | Probability:     0.0060%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #2
+────────────────────────────────────────────────────────────────────────────────
+Token: " debris"
+Logprob: -0.119228
+Probability: 88.7605%
+
+Top 10 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: " debris             " | Logprob: -0.119228  | Probability:    88.7605%
+  2. Token: "<|end|>             " | Logprob: -2.619228  | Probability:     7.2859%
+  3. Token: " materials          " | Logprob: -3.619228  | Probability:     2.6803%
+  4. Token: " Deb                " | Logprob: -5.119228  | Probability:     0.5981%
+  5. Token: " material           " | Logprob: -5.369228  | Probability:     0.4658%
+  6. Token: ".                   " | Logprob: -7.369228  | Probability:     0.0630%
+  7. Token: " Materials          " | Logprob: -8.619228  | Probability:     0.0181%
+  8. Token: " fragments          " | Logprob: -8.619228  | Probability:     0.0181%
+  9. Token: " parts              " | Logprob: -8.869228  | Probability:     0.0141%
+  10. Token: " Material           " | Logprob: -8.869228  | Probability:     0.0141%
+
+================================================================================
+

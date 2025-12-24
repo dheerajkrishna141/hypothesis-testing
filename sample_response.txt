@@ -1,0 +1,326 @@
+
+================================================================================
+RESPONSE DETAILS
+================================================================================
+Index: 0
+Finish Reason: stop
+
+Message Content:
+Debris type: Wood framing debris  
+Building type: Residential house  
+Construction type: Wood-frame construction
+================================================================================
+
+================================================================================
+LOGPROBS ANALYSIS
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+Token #1
+────────────────────────────────────────────────────────────────────────────────
+Token: "Deb"
+Logprob: -0.446018
+Probability: 64.0172%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "Deb                 " | Logprob: -0.446018  | Probability:    64.0172%
+  2. Token: "Wood                " | Logprob: -1.196018  | Probability:    30.2396%
+  3. Token: "de                  " | Logprob: -3.196018  | Probability:     4.0925%
+  4. Token: "Structural          " | Logprob: -5.446018  | Probability:     0.4313%
+  5. Token: "wood                " | Logprob: -5.946018  | Probability:     0.2616%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #2
+────────────────────────────────────────────────────────────────────────────────
+Token: "ris"
+Logprob: 0.000000
+Probability: 100.0000%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "ris                 " | Logprob: 0.000000   | Probability:   100.0000%
+  2. Token: "bris                " | Logprob: -24.000000 | Probability:     0.0000%
+  3. Token: "is                  " | Logprob: -24.500000 | Probability:     0.0000%
+  4. Token: "ri                  " | Logprob: -25.625000 | Probability:     0.0000%
+  5. Token: "rid                 " | Logprob: -25.750000 | Probability:     0.0000%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #3
+────────────────────────────────────────────────────────────────────────────────
+Token: " type"
+Logprob: -0.000059
+Probability: 99.9941%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: " type               " | Logprob: -0.000059  | Probability:    99.9941%
+  2. Token: " Type               " | Logprob: -9.750059  | Probability:     0.0058%
+  3. Token: ":                   " | Logprob: -15.000059 | Probability:     0.0000%
+  4. Token: "Type                " | Logprob: -17.500059 | Probability:     0.0000%
+  5. Token: "_type               " | Logprob: -19.250059 | Probability:     0.0000%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #4
+────────────────────────────────────────────────────────────────────────────────
+Token: ":"
+Logprob: 0.000000
+Probability: 100.0000%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: ":                   " | Logprob: 0.000000   | Probability:   100.0000%
+  2. Token: ",                   " | Logprob: -17.250000 | Probability:     0.0000%
+  3. Token: ":**                 " | Logprob: -20.750000 | Probability:     0.0000%
+  4. Token: ";                   " | Logprob: -21.000000 | Probability:     0.0000%
+  5. Token: "：                   " | Logprob: -22.000000 | Probability:     0.0000%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #5
+────────────────────────────────────────────────────────────────────────────────
+Token: " Wood"
+Logprob: -1.102036
+Probability: 33.2194%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: " Wood               " | Logprob: -1.102036  | Probability:    33.2194%
+  2. Token: " Structural         " | Logprob: -1.602036  | Probability:    20.1486%
+  3. Token: " structural         " | Logprob: -1.852036  | Probability:    15.6917%
+  4. Token: " wood               " | Logprob: -2.102036  | Probability:    12.2207%
+  5. Token: " Wooden             " | Logprob: -2.352036  | Probability:     9.5175%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #6
+────────────────────────────────────────────────────────────────────────────────
+Token: " framing"
+Logprob: -3.389881
+Probability: 3.3713%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: " debris             " | Logprob: -0.389881  | Probability:    67.7138%
+  2. Token: "  
+                 " | Logprob: -2.139881  | Probability:    11.7669%
+  3. Token: "/                   " | Logprob: -2.389881  | Probability:     9.1641%
+  4. Token: "/t                  " | Logprob: -3.389881  | Probability:     3.3713%
+  5. Token: " framing            " | Logprob: -3.389881  | Probability:     3.3713%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #7
+────────────────────────────────────────────────────────────────────────────────
+Token: " debris"
+Logprob: -1.091957
+Probability: 33.5559%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "/l                  " | Logprob: -1.091957  | Probability:    33.5559%
+  2. Token: " debris             " | Logprob: -1.091957  | Probability:    33.5559%
+  3. Token: " and                " | Logprob: -1.341957  | Probability:    26.1334%
+  4. Token: " lumber             " | Logprob: -3.341957  | Probability:     3.5368%
+  5. Token: "/                   " | Logprob: -3.591957  | Probability:     2.7544%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #8
+────────────────────────────────────────────────────────────────────────────────
+Token: "  
+"
+Logprob: -0.000334
+Probability: 99.9666%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "  
+                 " | Logprob: -0.000334  | Probability:    99.9666%
+  2. Token: " (                  " | Logprob: -8.500334  | Probability:     0.0203%
+  3. Token: " and                " | Logprob: -9.000334  | Probability:     0.0123%
+  4. Token: ",                   " | Logprob: -13.250334 | Probability:     0.0002%
+  5. Token: "/                   " | Logprob: -13.500334 | Probability:     0.0001%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #9
+────────────────────────────────────────────────────────────────────────────────
+Token: "Building"
+Logprob: -0.000001
+Probability: 99.9999%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "Building            " | Logprob: -0.000001  | Probability:    99.9999%
+  2. Token: "B                   " | Logprob: -13.750001 | Probability:     0.0001%
+  3. Token: "building            " | Logprob: -19.000002 | Probability:     0.0000%
+  4. Token: "Buildings           " | Logprob: -22.750002 | Probability:     0.0000%
+  5. Token: "Build               " | Logprob: -23.250002 | Probability:     0.0000%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #10
+────────────────────────────────────────────────────────────────────────────────
+Token: " type"
+Logprob: 0.000000
+Probability: 100.0000%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: " type               " | Logprob: 0.000000   | Probability:   100.0000%
+  2. Token: " Type               " | Logprob: -22.000000 | Probability:     0.0000%
+  3. Token: " тип                " | Logprob: -24.750000 | Probability:     0.0000%
+  4. Token: " typ                " | Logprob: -25.250000 | Probability:     0.0000%
+  5. Token: " tipo               " | Logprob: -26.250000 | Probability:     0.0000%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #11
+────────────────────────────────────────────────────────────────────────────────
+Token: ":"
+Logprob: 0.000000
+Probability: 100.0000%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: ":                   " | Logprob: 0.000000   | Probability:   100.0000%
+  2. Token: " (                  " | Logprob: -20.875000 | Probability:     0.0000%
+  3. Token: ":**                 " | Logprob: -21.000000 | Probability:     0.0000%
+  4. Token: "                    " | Logprob: -23.187500 | Probability:     0.0000%
+  5. Token: "：                   " | Logprob: -23.187500 | Probability:     0.0000%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #12
+────────────────────────────────────────────────────────────────────────────────
+Token: " Residential"
+Logprob: -0.108795
+Probability: 89.6915%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: " Residential        " | Logprob: -0.108795  | Probability:    89.6915%
+  2. Token: " Single             " | Logprob: -2.608794  | Probability:     7.3623%
+  3. Token: " House              " | Logprob: -3.608794  | Probability:     2.7084%
+  4. Token: " Detached           " | Logprob: -6.108795  | Probability:     0.2223%
+  5. Token: " Elevated           " | Logprob: -9.608794  | Probability:     0.0067%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #13
+────────────────────────────────────────────────────────────────────────────────
+Token: " house"
+Logprob: -0.060499
+Probability: 94.1295%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: " house              " | Logprob: -0.060499  | Probability:    94.1295%
+  2. Token: " single             " | Logprob: -3.310498  | Probability:     3.6498%
+  3. Token: " (                  " | Logprob: -3.810498  | Probability:     2.2137%
+  4. Token: " st                 " | Logprob: -10.560498 | Probability:     0.0026%
+  5. Token: "  
+                 " | Logprob: -10.560498 | Probability:     0.0026%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #14
+────────────────────────────────────────────────────────────────────────────────
+Token: "  
+"
+Logprob: -0.000947
+Probability: 99.9053%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "  
+                 " | Logprob: -0.000947  | Probability:    99.9053%
+  2. Token: " (                  " | Logprob: -7.000947  | Probability:     0.0911%
+  3. Token: " on                 " | Logprob: -10.250947 | Probability:     0.0035%
+  4. Token: " elevated           " | Logprob: -15.750947 | Probability:     0.0000%
+  5. Token: " st                 " | Logprob: -16.750948 | Probability:     0.0000%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #15
+────────────────────────────────────────────────────────────────────────────────
+Token: "Construction"
+Logprob: 0.000000
+Probability: 100.0000%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "Construction        " | Logprob: 0.000000   | Probability:   100.0000%
+  2. Token: "construction        " | Logprob: -21.500000 | Probability:     0.0000%
+  3. Token: "Construct           " | Logprob: -22.750000 | Probability:     0.0000%
+  4. Token: " Construction       " | Logprob: -24.500000 | Probability:     0.0000%
+  5. Token: "Building            " | Logprob: -24.500000 | Probability:     0.0000%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #16
+────────────────────────────────────────────────────────────────────────────────
+Token: " type"
+Logprob: 0.000000
+Probability: 100.0000%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: " type               " | Logprob: 0.000000   | Probability:   100.0000%
+  2. Token: " Type               " | Logprob: -21.750000 | Probability:     0.0000%
+  3. Token: " tipo               " | Logprob: -23.500000 | Probability:     0.0000%
+  4. Token: "/type               " | Logprob: -24.750000 | Probability:     0.0000%
+  5. Token: " typ                " | Logprob: -25.000000 | Probability:     0.0000%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #17
+────────────────────────────────────────────────────────────────────────────────
+Token: ":"
+Logprob: 0.000000
+Probability: 100.0000%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: ":                   " | Logprob: 0.000000   | Probability:   100.0000%
+  2. Token: " of                 " | Logprob: -18.750000 | Probability:     0.0000%
+  3. Token: " :                  " | Logprob: -20.437500 | Probability:     0.0000%
+  4. Token: ":.                  " | Logprob: -20.687500 | Probability:     0.0000%
+  5. Token: " and                " | Logprob: -20.875000 | Probability:     0.0000%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #18
+────────────────────────────────────────────────────────────────────────────────
+Token: " Wood"
+Logprob: -0.133304
+Probability: 87.5199%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: " Wood               " | Logprob: -0.133304  | Probability:    87.5199%
+  2. Token: " Timber             " | Logprob: -2.133304  | Probability:    11.8445%
+  3. Token: " Wooden             " | Logprob: -5.383304  | Probability:     0.4593%
+  4. Token: " Light              " | Logprob: -6.383304  | Probability:     0.1690%
+  5. Token: " деревян            " | Logprob: -10.133305 | Probability:     0.0040%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #19
+────────────────────────────────────────────────────────────────────────────────
+Token: "-frame"
+Logprob: -0.049005
+Probability: 95.2177%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: "-frame              " | Logprob: -0.049005  | Probability:    95.2177%
+  2. Token: " frame              " | Logprob: -3.049005  | Probability:     4.7406%
+  3. Token: "-fr                 " | Logprob: -7.799005  | Probability:     0.0410%
+  4. Token: " (                  " | Logprob: -13.299005 | Probability:     0.0002%
+  5. Token: " light              " | Logprob: -13.549005 | Probability:     0.0001%
+
+────────────────────────────────────────────────────────────────────────────────
+Token #20
+────────────────────────────────────────────────────────────────────────────────
+Token: " construction"
+Logprob: -0.023334
+Probability: 97.6937%
+
+Top 5 Alternative Tokens:
+┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  1. Token: " construction       " | Logprob: -0.023334  | Probability:    97.6937%
+  2. Token: " (                  " | Logprob: -3.773334  | Probability:     2.2975%
+  3. Token: " timber             " | Logprob: -10.273334 | Probability:     0.0035%
+  4. Token: "                    " | Logprob: -10.523334 | Probability:     0.0027%
+  5. Token: " on                 " | Logprob: -11.523334 | Probability:     0.0010%
+
+================================================================================
+
