@@ -9,7 +9,7 @@ const openai = new OpenAI({
 
 // Configuration Constants
 const MODEL_CONFIG = {
-  name: "gpt-4o",
+  name: "gpt-5.2",
   temperature: 1.0,
 };
 
@@ -27,7 +27,7 @@ export const fetchLogProbs = async (imageDataUrl, question) => {
       model: MODEL_CONFIG.name,
       logprobs: true,
       top_logprobs: 5,
-      max_tokens: 20, // Increased slightly to allow for "Label 100%"
+      max_completion_tokens: 10, // Increased slightly to allow for "Label 100%"
       temperature: MODEL_CONFIG.temperature,
       messages: [
         {
@@ -54,10 +54,7 @@ export const fetchLogProbs = async (imageDataUrl, question) => {
       },
     };
   } catch (error) {
-    console.error(
-      `\n[API Error] Failed to process ${imagePath}:`,
-      error.message,
-    );
+    console.error(`\n[API Error] Failed to process image:`, error.message);
     return null;
   }
 };

@@ -9,9 +9,19 @@ const imageDataUrl2 = createDataUrl(
   "/home/kratosfury/Research/scripts/assets/image_0020.png",
 );
 
+const imageDataUrl3 = createDataUrl(
+  "/home/kratosfury/Research/scripts/assets/image_0056.jpeg",
+);
+
+const imageDataUrl4 = createDataUrl(
+  "/home/kratosfury/Research/scripts/assets/image_0061.jpeg",
+);
+
 const images = [
   { id: "image_0001.png", url: imageDataUrl1 },
   { id: "image_0020.png", url: imageDataUrl2 },
+  { id: "image_0056.jpeg", url: imageDataUrl3 },
+  { id: "image_0061.jpeg", url: imageDataUrl4 },
 ];
 
 const questions = [
