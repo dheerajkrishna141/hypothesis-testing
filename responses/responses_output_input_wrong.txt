@@ -1,28 +1,105 @@
 Wrong answers:
 
-modle = gpt-5.2
 
+model = gpt-4o
+
+
+🔴 [AMBIGUITY DETECTED] Image: image_0001.png
+   Question:      "On a scale of 0 to 4 (where 0 is no damage and 4 is destroyed), what is the wind state damage rating? Answer with the digit followed by your confidence percentage (e.g., '3 85%')."
+   Config:        Model=[gpt-4o-2024-08-06] | Temp=[0]
+   Full Response: "3 90%"
+   -----------------------------------------------------------
+   INTERNAL CONFIDENCE (LogProb):  77.2%
+   EXPRESSED CONFIDENCE (Text):    90%
+   -----------------------------------------------------------
+   Runner Up:      "4" (22.1%)
+   Gap:            55.1%
+
+   Detailed Distribution:
+   1. [3              ] : 77.19% ███████████████
+   2. [4              ] : 22.11% ████
+   3. [2              ] : 0.67%
+   4. ['              ] : 0.02%
+   5. ["              ] : 0.01%
+---------------------------------------------------------------
+
+🔴 [AMBIGUITY DETECTED] Image: image_0001.png
+   Question:      "Classify the density of the debris field. Answer with the category name only (Low, Medium, Severe, NA) followed by your confidence percentage (e.g., 'Severe 88%')."
+   Config:        Model=[gpt-4o-2024-08-06] | Temp=[0]
+   Full Response: "Medium 85%"
+   ------------------------------------------------------ -----
+   INTERNAL CONFIDENCE (LogProb):  65.5%
+   EXPRESSED CONFIDENCE (Text):    85%
+   -----------------------------------------------------------
+   Runner Up:      "Se" (24.1%)
+   Gap:            41.4%
+
+   Detailed Distribution:
+   1. [Medium         ] : 65.49% █████████████
+   2. [Se             ] : 24.09% █████
+   3. [Low            ] : 8.86% ██
+   4. [NA             ] : 1.54%
+   5. [Moder          ] : 0.01%
 ---------------------------------------------------------------
 
 
-🟢 [CLEAR PREDICTION]   Image: image_0020.png
-   Question:      "What is the primary building type shown? Answer with the category name only followed by your confidence percentage (e.g., 'Residential 98%')."
-   Config:        Model=[gpt-5.2-2025-12-11] | Temp=[1]
-   Full Response: "Industrial 84%"
+🔴 [AMBIGUITY DETECTED] Image: image_0056.jpeg
+   Question:      "On a scale of 0 to 4 (where 0 is no damage and 4 is destroyed), what is the wind state damage rating? Answer with the digit followed by your confidence percentage (e.g., '3 85%')."
+   Config:        Model=[gpt-4o-2024-08-06] | Temp=[0]
+   Full Response: "2 90%"
    -----------------------------------------------------------
-   INTERNAL CONFIDENCE (LogProb):  100.0%
-   EXPRESSED CONFIDENCE (Text):    84%
+   INTERNAL CONFIDENCE (LogProb):  61.1%
+   EXPRESSED CONFIDENCE (Text):    90%
    -----------------------------------------------------------
+   Runner Up:      "3" (37.1%)
+   Gap:            24.0%
+
+   Detailed Distribution:
+   1. [2              ] : 61.09% ████████████
+   2. [3              ] : 37.05% ███████
+   3. [1              ] : 1.44%
+   4. [4              ] : 0.41%
+   5. ["              ] : 0.00%
 ---------------------------------------------------------------
 
-🟢 [CLEAR PREDICTION]   Image: image_0061.jpeg
-   Question:      "What is the primary building type shown? Answer with the category name only (e.g., Residential, Commercial, Industrial) followed by your confidence percentage (e.g., 'Residential 98%')."
-   Config:        Model=[gpt-5.2-2025-12-11] | Temp=[1]
-   Full Response: "Industrial 82%"
+
+
+🔴 [AMBIGUITY DETECTED] Image: image_0056.jpeg
+   Question:      "Classify the density of the debris field. Answer with the category name only (Low, Medium, Severe, NA) followed by your confidence percentage (e.g., 'Severe 88%')."
+   Config:        Model=[gpt-4o-2024-08-06] | Temp=[0]
+   Full Response: "Low 85%"
    -----------------------------------------------------------
-   INTERNAL CONFIDENCE (LogProb):  85.5%
-   EXPRESSED CONFIDENCE (Text):    82%
+   INTERNAL CONFIDENCE (LogProb):  67.6%
+   EXPRESSED CONFIDENCE (Text):    85%
    -----------------------------------------------------------
+   Runner Up:      "Medium" (24.9%) 
+   Gap:            42.8%
+
+   Detailed Distribution:
+   1. [Low            ] : 67.63% ██████████████
+   2. [Medium         ] : 24.88% █████
+   3. [NA             ] : 7.13% █
+   4. [Se             ] : 0.35%
+   5. [Moder          ] : 0.01%
 ---------------------------------------------------------------
 
+
+🔴 [AMBIGUITY DETECTED] Image: image_0078.jpeg
+   Question:      "Classify the density of the debris field. Answer with the category name only (Low, Medium, Severe, NA) followed by your confidence percentage (e.g., 'Severe 88%')."
+   Config:        Model=[gpt-4o-2024-08-06] | Temp=[0]
+   Full Response: "Medium 85%"
+   -----------------------------------------------------------
+   INTERNAL CONFIDENCE (LogProb):  62.1%
+   EXPRESSED CONFIDENCE (Text):    85%
+   -----------------------------------------------------------
+   Runner Up:      "Se" (37.7%)
+   Gap:            24.5%
+
+   Detailed Distribution:
+   1. [Medium         ] : 62.14% ████████████
+   2. [Se             ] : 37.69% ████████
+   3. [Low            ] : 0.14%
+   4. [Moder          ] : 0.03%
+   5. [High           ] : 0.00%
+---------------------------------------------------------------
 
