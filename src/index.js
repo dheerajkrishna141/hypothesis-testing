@@ -17,23 +17,33 @@ const imageDataUrl4 = createDataUrl(
   "/home/kratosfury/Research/scripts/assets/image_0061.jpeg",
 );
 
+const imageDataUrl5 = createDataUrl(
+  "/home/kratosfury/Research/scripts/assets/image_0078.jpeg",
+);
+
+const imageDataUrl6 = createDataUrl(
+  "/home/kratosfury/Research/scripts/assets/image_0100.jpeg",
+);
+
 const images = [
   { id: "image_0001.png", url: imageDataUrl1 },
   { id: "image_0020.png", url: imageDataUrl2 },
   { id: "image_0056.jpeg", url: imageDataUrl3 },
   { id: "image_0061.jpeg", url: imageDataUrl4 },
+  { id: "image_0078.jpeg", url: imageDataUrl5 },
+  { id: "image_0100.jpeg", url: imageDataUrl6 },
 ];
 
 const questions = [
   "On a scale of 0 to 4 (where 0 is no damage and 4 is destroyed), what is the wind state damage rating? Answer with the digit followed by your confidence percentage (e.g., '3 85%').",
 
-  "What is the primary building type shown? Answer with the category name only (e.g., Residential, Commercial, Industrial) followed by your confidence percentage (e.g., 'Residential 98%').",
+  "What is the primary building type shown? Answer with the category name only (Residential, Commercial, Industrial, Agriculture, Religious, Schools, Fire_Station, Hospitals) followed by your confidence percentage (e.g., 'Residential 98%').",
 
-  "What is the primary composition of the debris visible? Answer with the category name only (e.g., Vegetation, Construction, Miscellaneous, White, NA ) followed by your confidence percentage (e.g., 'Vegetation 75%').",
+  "What is the primary composition of the debris visible? Answer with the category name only (Vegetation, Construction, Miscellaneous, White, NA ) followed by your confidence percentage (e.g., 'Vegetation 75%').",
 
-  "Identify the primary construction material of the main structure. Answer with the category name only (e.g., Wood_Frame, Masonry, Metal) followed by your confidence percentage (e.g., 'Wood_Frame 90%').",
+  "Identify the primary construction material of the main structure. Answer with the category name only (Masonry/Wood_Frame, Masonry, Wood_Frame, Metal_Frame) followed by your confidence percentage (e.g., 'Wood_Frame 90%').",
 
-  "Classify the density of the debris field. Answer with the category name only (e.g., Low, Medium, Severe) followed by your confidence percentage (e.g., 'Severe 88%').",
+  "Classify the density of the debris field. Answer with the category name only (Low, Medium, Severe, NA) followed by your confidence percentage (e.g., 'Severe 88%').",
 ];
 
 async function runWorkflow() {

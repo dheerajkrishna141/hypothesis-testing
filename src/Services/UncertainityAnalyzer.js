@@ -31,24 +31,28 @@ export function analyzeUncertainty(
   const expressedMatch = fullText?.match(/(\d+)%/);
   const expressedProb = expressedMatch ? `${expressedMatch[1]}%` : "N/A";
 
-  const logHeader = isAmbiguous
-    ? `\n🔴 [AMBIGUITY DETECTED] Image: ${imageId}`
-    : `\n🟢 [CLEAR PREDICTION]   Image: ${imageId}`;
-
-  console.log(logHeader);
-  console.log(`   Question:      "${question}"`);
-  console.log(
-    `   Config:        Model=[${meta.model}] | Temp=[${meta.temperature}]`,
-  );
-
-  // THE COMPARISON
-  console.log(`   Full Response: "${fullText}"`);
-  console.log(`   -----------------------------------------------------------`);
-  console.log(`   INTERNAL CONFIDENCE (LogProb):  ${topProb.toFixed(1)}%`);
-  console.log(`   EXPRESSED CONFIDENCE (Text):    ${expressedProb}`);
-  console.log(`   -----------------------------------------------------------`);
-
   if (isAmbiguous) {
+    const logHeader = isAmbiguous
+      ? `\n🔴 [AMBIGUITY DETECTED] Image: ${imageId}`
+      : `\n🟢 [CLEAR PREDICTION]   Image: ${imageId}`;
+
+    console.log(logHeader);
+    console.log(`   Question:      "${question}"`);
+    console.log(
+      `   Config:        Model=[${meta.model}] | Temp=[${meta.temperature}]`,
+    );
+
+    // THE COMPARISON
+    console.log(`   Full Response: "${fullText}"`);
+    console.log(
+      `   -----------------------------------------------------------`,
+    );
+    console.log(`   INTERNAL CONFIDENCE (LogProb):  ${topProb.toFixed(1)}%`);
+    console.log(`   EXPRESSED CONFIDENCE (Text):    ${expressedProb}`);
+    console.log(
+      `   -----------------------------------------------------------`,
+    );
+
     console.log(
       `   Runner Up:      "${runnerUp?.token}" (${runnerUpProb.toFixed(1)}%)`,
     );
@@ -61,8 +65,8 @@ export function analyzeUncertainty(
         `   ${i + 1}. [${t.token.padEnd(15)}] : ${p.toFixed(2)}% ${bar}`,
       );
     });
+    console.log(
+      "---------------------------------------------------------------\n",
+    );
   }
-  console.log(
-    "---------------------------------------------------------------\n",
-  );
 }
