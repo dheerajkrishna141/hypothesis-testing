@@ -1,0 +1,28 @@
+Wrong answers:
+
+modle = gpt-5.2
+
+---------------------------------------------------------------
+
+
+🟢 [CLEAR PREDICTION]   Image: image_0020.png
+   Question:      "What is the primary building type shown? Answer with the category name only followed by your confidence percentage (e.g., 'Residential 98%')."
+   Config:        Model=[gpt-5.2-2025-12-11] | Temp=[1]
+   Full Response: "Industrial 84%"
+   -----------------------------------------------------------
+   INTERNAL CONFIDENCE (LogProb):  100.0%
+   EXPRESSED CONFIDENCE (Text):    84%
+   -----------------------------------------------------------
+---------------------------------------------------------------
+
+🟢 [CLEAR PREDICTION]   Image: image_0061.jpeg
+   Question:      "What is the primary building type shown? Answer with the category name only (e.g., Residential, Commercial, Industrial) followed by your confidence percentage (e.g., 'Residential 98%')."
+   Config:        Model=[gpt-5.2-2025-12-11] | Temp=[1]
+   Full Response: "Industrial 82%"
+   -----------------------------------------------------------
+   INTERNAL CONFIDENCE (LogProb):  85.5%
+   EXPRESSED CONFIDENCE (Text):    82%
+   -----------------------------------------------------------
+---------------------------------------------------------------
+
+

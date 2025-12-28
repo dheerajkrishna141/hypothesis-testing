@@ -36,7 +36,7 @@ export function analyzeUncertainty(
     : `\n🟢 [CLEAR PREDICTION]   Image: ${imageId}`;
 
   console.log(logHeader);
-  console.log(`   Question:      "${question.substring(0, 60)}..."`);
+  console.log(`   Question:      "${question}"`);
   console.log(
     `   Config:        Model=[${meta.model}] | Temp=[${meta.temperature}]`,
   );
