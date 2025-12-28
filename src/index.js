@@ -25,18 +25,17 @@ const images = [
 ];
 
 const questions = [
-  "Is there visible flooding in this image? Answer strictly with the label ('Yes' or 'No') followed by your confidence percentage (e.g., 'Yes 95%').",
-
-  "Is the primary structure in this image elevated? Answer strictly with the label ('Yes' or 'No') followed by your confidence percentage (e.g., 'No 90%').",
-
   "On a scale of 0 to 4 (where 0 is no damage and 4 is destroyed), what is the wind state damage rating? Answer with the digit followed by your confidence percentage (e.g., '3 85%').",
 
-  "What is the primary building type shown? Answer with the category name only followed by your confidence percentage (e.g., 'Residential 98%').",
+  "What is the primary building type shown? Answer with the category name only (e.g., Residential, Commercial, Industrial) followed by your confidence percentage (e.g., 'Residential 98%').",
 
-  "What is the primary type of debris visible? Answer with the category name only followed by your confidence percentage (e.g., 'Vegetation 75%').",
+  "What is the primary composition of the debris visible? Answer with the category name only (e.g., Vegetation, Construction, Miscellaneous, White, NA ) followed by your confidence percentage (e.g., 'Vegetation 75%').",
+
+  "Identify the primary construction material of the main structure. Answer with the category name only (e.g., Wood_Frame, Masonry, Metal) followed by your confidence percentage (e.g., 'Wood_Frame 90%').",
+
+  "Classify the density of the debris field. Answer with the category name only (e.g., Low, Medium, Severe) followed by your confidence percentage (e.g., 'Severe 88%').",
 ];
 
-// --- EXECUTION LOOP ---
 async function runWorkflow() {
   console.log("Starting Uncertainty Quantification Workflow...");
   console.log(
@@ -44,21 +43,16 @@ async function runWorkflow() {
   );
 
   for (const image of images) {
-    // Optional: Log which image is processing if you want to track progress
-    // console.log(`Processing ${image.id}...`);
-
     for (const question of questions) {
-      // 1. Call the API (The Tool)
       const result = await fetchLogProbs(image.url, question);
 
       if (result) {
-        // 2. Analyze the result (The Research)
         analyzeUncertainty(
           result.tokenData,
           question,
           image.id,
           result.meta,
-          result.fullText, // <--- New: Passing the model's spoken answer
+          result.fullText,
         );
       }
     }
