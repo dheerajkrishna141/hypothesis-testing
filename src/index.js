@@ -37,16 +37,26 @@ const imageDataUrl9 = createDataUrl(
   "/home/kratosfury/Research/scripts/assets/image_0100_perturbed.jpg",
 );
 
+const imageDataUrl10 = createDataUrl(
+  "/home/kratosfury/Research/scripts/assets/image_0056_perturbed.jpg",
+);
+
+const imageDataUrl11 = createDataUrl(
+  "/home/kratosfury/Research/scripts/assets/image_0061_perturbed.jpg",
+);
+
 const images = [
-  { id: "image_0001.png", url: imageDataUrl1 },
-  { id: "image_0020.png", url: imageDataUrl2 },
-  { id: "image_0056.jpeg", url: imageDataUrl3 },
-  { id: "image_0061.jpeg", url: imageDataUrl4 },
-  { id: "image_0078.jpeg", url: imageDataUrl5 },
-  { id: "image_0100.jpeg", url: imageDataUrl6 },
+  // { id: "image_0001.png", url: imageDataUrl1 },
+  // { id: "image_0020.png", url: imageDataUrl2 },
+  // { id: "image_0056.jpeg", url: imageDataUrl3 },
+  // { id: "image_0061.jpeg", url: imageDataUrl4 },
+  // { id: "image_0078.jpeg", url: imageDataUrl5 },
+  // { id: "image_0100.jpeg", url: imageDataUrl6 },
   { id: "image_0001_perturbed.jpg", url: imageDataUrl7 },
   { id: "image_0078_perturbed.jpeg", url: imageDataUrl8 },
   { id: "image_0100_perturbed.jpg", url: imageDataUrl9 },
+  { id: "image_0056_perturbed.jpg", url: imageDataUrl10 },
+  { id: "image_0061_perturbed.jpg", url: imageDataUrl11 },
 ];
 
 const questions = [
