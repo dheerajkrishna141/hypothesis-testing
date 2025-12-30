@@ -10,7 +10,7 @@ const openai = new OpenAI({
 // Configuration Constants
 const MODEL_CONFIG = {
   name: "gpt-4o",
-  temperature: 0,
+  temperature: 0.5,
 };
 
 /**
