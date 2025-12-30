@@ -103,3 +103,63 @@ model = gpt-4o
    5. [High           ] : 0.00%
 ---------------------------------------------------------------
 
+
+model = gpt-5.2
+
+🔴 [AMBIGUITY DETECTED] Image: image_0020.png
+   Question:      "Classify the density of the debris field. Answer with the category name only (Low, Medium, Severe, NA) followed by your confidence percentage (e.g., 'Severe 88%')."
+   Config:        Model=[gpt-5.2-2025-12-11] | Temp=[0]
+   Full Response: "Severe 92%"
+   -----------------------------------------------------------
+   INTERNAL CONFIDENCE (LogProb):  81.8%
+   EXPRESSED CONFIDENCE (Text):    92%
+   -----------------------------------------------------------
+   Runner Up:      "Medium" (18.2%)
+   Gap:            63.5%
+
+   Detailed Distribution:
+   1. [Se             ] : 81.76% ████████████████
+   2. [Medium         ] : 18.24% ████
+   3. [High           ] : 0.00%
+   4. [Moder          ] : 0.00%
+   5. [Severity       ] : 0.00%
+---------------------------------------------------------------
+
+🔴 [AMBIGUITY DETECTED] Image: image_0100.jpeg
+   Question:      "Classify the density of the debris field. Answer with the category name only (Low, Medium, Severe, NA) followed by your confidence percentage (e.g., 'Severe 88%')."
+   Config:        Model=[gpt-5.2-2025-12-11] | Temp=[0]
+   Full Response: "Medium 86%"
+   -----------------------------------------------------------
+   INTERNAL CONFIDENCE (LogProb):  81.8%
+   EXPRESSED CONFIDENCE (Text):    86%
+   -----------------------------------------------------------
+   Runner Up:      "Se" (18.2%)
+   Gap:            63.5%
+
+   Detailed Distribution:
+   1. [Medium         ] : 81.76% ████████████████
+   2. [Se             ] : 18.24% ████
+   3. [Moder          ] : 0.00%
+   4. [Severity       ] : 0.00%
+   5. [High           ] : 0.00%
+---------------------------------------------------------------
+
+
+🔴 [AMBIGUITY DETECTED] Image: image_0100.jpeg
+   Question:      "Classify the density of the debris field. Answer with the category name only (Low, Medium, Severe, NA) followed by your confidence percentage (e.g., 'Severe 88%')."
+   Config:        Model=[gpt-5.2-2025-12-11] | Temp=[0.5]
+   Full Response: "Medium 86%"
+   -----------------------------------------------------------
+   INTERNAL CONFIDENCE (LogProb):  81.8%
+   EXPRESSED CONFIDENCE (Text):    86%
+   -----------------------------------------------------------
+   Runner Up:      "Se" (18.2%)
+   Gap:            63.5%
+
+   Detailed Distribution:
+   1. [Medium         ] : 81.76% ████████████████
+   2. [Se             ] : 18.24% ████
+   3. [Moder          ] : 0.00%
+   4. [Severity       ] : 0.00%
+   5. [High           ] : 0.00%
+---------------------------------------------------------------
