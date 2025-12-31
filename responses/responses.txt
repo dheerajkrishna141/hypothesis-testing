@@ -1,4 +1,4 @@
-Model gpt 4-o:
+Model: GPT-4o
 
 🔴 [AMBIGUITY DETECTED] Image: image_0001.png
    Question:      "On a scale of 0 to 4 (where 0 is no damage and 4 is destroye..."
@@ -142,7 +142,6 @@ Model gpt 4-o:
    5. [Infrastructure ] : 0.75% 
 ---------------------------------------------------------------
 
-Different questions: ---------------------------------------------------------------
 
 🔴 [AMBIGUITY DETECTED] Image: image_0020.png
    Question:      "Classify the density of the debris field. Answer with the category name only (e.g., Low, Medium, Severe) followed by your confidence percentage (e.g., 'Severe 88%')."
@@ -226,7 +225,7 @@ Different questions: -----------------------------------------------------------
 
 
 
-Model gpt 5.2:
+Model: GPT-5.2
 
 
 

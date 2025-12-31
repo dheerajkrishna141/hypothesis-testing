@@ -1,7 +1,7 @@
 Wrong answers:
 
 
-model = gpt-4o
+Model: GPT-4o
 
 
 🔴 [AMBIGUITY DETECTED] Image: image_0001.png
@@ -104,7 +104,7 @@ model = gpt-4o
 ---------------------------------------------------------------
 
 
-model = gpt-5.2
+Model: GPT-5.2
 
 🔴 [AMBIGUITY DETECTED] Image: image_0020.png
    Question:      "Classify the density of the debris field. Answer with the category name only (Low, Medium, Severe, NA) followed by your confidence percentage (e.g., 'Severe 88%')."

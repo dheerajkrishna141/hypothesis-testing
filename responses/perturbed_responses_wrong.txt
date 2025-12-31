@@ -1,4 +1,4 @@
-Model: 4o 
+Model: GPT-4o 
 
 
 🔴 [AMBIGUITY DETECTED] Image: image_0001_perturbed.jpg
@@ -121,7 +121,7 @@ Model: 4o
 
 
 
-Model: 5.2
+Model: GPT-5.2
 
 🔴 [AMBIGUITY DETECTED] Image: image_0001_perturbed.jpg
    Question:      "On a scale of 0 to 4 (where 0 is no damage and 4 is destroyed), what is the wind state damage rating? Answer with the digit followed by your confidence percentage (e.g., '3 85%')."
